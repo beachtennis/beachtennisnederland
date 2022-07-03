@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   ssr: false,
   content: {
     documentDriven: true,
+    highlight: {
+      theme: "github-dark",
+    },
   },
   typescript: {
     shim: false,
