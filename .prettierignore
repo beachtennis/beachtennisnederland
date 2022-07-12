@@ -1,0 +1,5 @@
+output
+.nuxt
+.unlighthouse
+dist
+pnpm-lock.yaml

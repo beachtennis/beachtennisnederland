@@ -1,7 +1,7 @@
 <template>
   <div class="p-4">
     <p>Custom Layout</p>
-    <hr/>
+    <hr />
     <slot />
   </div>
 </template>

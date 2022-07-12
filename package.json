@@ -11,6 +11,7 @@
     "@nuxtjs/tailwindcss": "^5.1.3",
     "@unlighthouse/nuxt": "^0.3.29",
     "daisyui": "^2.17.0",
-    "nuxt": "^3.0.0-rc.4"
+    "nuxt": "^3.0.0-rc.4",
+    "prettier": "^2.7.1"
   }
 }
