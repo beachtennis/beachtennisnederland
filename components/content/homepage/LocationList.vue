@@ -1,14 +1,3 @@
-<!-- <template>
-- Smile Beachtennis Den Haag
-- Beach Club Rotterdam
-- BT33 Amersfoort
-- Beach Club Breda
-- Beach Club Huizen
-- Hiltenhal Hilvarenbeek
-- Black Sheep Beach Tennis School Zwolle
-- Beachfabriek Nijmegen
-</template> -->
-
 <template>
   <div class="min-h-screen" id="play">
     <h1 class="font-semibold text-3xl px-10 py-10">Locaties</h1>
@@ -48,6 +37,36 @@ export default defineComponent({
           description: "Als eerste club in Nederland met 4 beachtennis velden!",
           tag: "NEW",
           badges: [{ name: "Amersfoort" }],
+        },
+        {
+          name: "Breda Beach",
+          description: "Sinds 1999 beachvolleybal, beachtennis en footvolley.",
+          tag: "NEW",
+          badges: [{ name: "Breda" }],
+        },
+        {
+          name: "BeachSport Huizen",
+          description: "Beachsport aan de voet van de Gooische Alpen in Huizen. Wij promoten beachsport. BeachSport Huizen. Wat je beach ook is.",
+          tag: "NEW",
+          badges: [{ name: "Huizen" }],
+        },
+        {
+          name: "Hiltenhal Hilvarenbeek",
+          description: "Voor al je tennis, beachvolleybal, padel en squash plezier!",
+          tag: "NEW",
+          badges: [{ name: "Hilvarenbeek" }],
+        },
+        {
+          name: "Beachtennis School Zwolle",
+          description: "Black Sheep Beach Tennis School",
+          tag: "NEW",
+          badges: [{ name: "Zwolle" }],
+        },
+        {
+          name: "Beachfabriek Nijmegen",
+          description: "365 dagen per jaar Beachsport!",
+          tag: "NEW",
+          badges: [{ name: "Nijmegen" }],
         },
       ],
     };
