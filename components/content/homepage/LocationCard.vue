@@ -1,7 +1,6 @@
 <template>
   <div
-    class="card w-80 min-w-80 bg-base-100 dark:bg-base-300 shadow-xl hover:bg-base-200 focus-within:bg-base-200 cursor-pointer">
-      <NuxtLink :to="to">
+    class="card w-80 min-w-80 bg-base-100 dark:bg-base-300 shadow-xl hover:bg-base-200 focus-within:bg-base-200 cursor-pointer" @click="this.$router.push(to)">
       <figure>
         <img src="https://placeimg.com/400/225/arch" />
       </figure>
@@ -22,7 +21,6 @@
           </div>
         </div>
       </div>
-      </NuxtLink>
   </div>
 </template>
 
