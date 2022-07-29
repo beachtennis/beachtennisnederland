@@ -1,7 +1,7 @@
 <template>
   <div class="hero bg-base-200">
-    <div class="container m-auto">
-      <h1 class="font-semibold text-3xl py-10">Ranglijst</h1>
+    <div class="container m-auto p-10 pt-0">
+      <h1 class="font-semibold text-2xl py-10">Ranglijst</h1>
       <div class="tabs tabs-boxed">
         <a class="tab" :class="{ 'tab-active': activeHeren }" :bind="activeHeren" @click="activeHeren = true">Heren</a> 
         <a class="tab" :class="{ 'tab-active': !activeHeren }" :bind="!activeHeren" @click="activeHeren = false">Vrouwen</a> 

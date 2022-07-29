@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen container m-auto" id="play">
-    <h1 class="font-semibold text-3xl px-10 py-10">Locaties</h1>
+  <div class="min-h-screen container m-auto p-10 pt-0" id="play">
+    <h1 class="font-semibold text-2xl py-10">Locaties</h1>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-16 mb-10"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-items-center gap-16 mb-10"
     >
       <ContentList
         :query="{ where: { _path: { $ne: '/locaties' } } }"
