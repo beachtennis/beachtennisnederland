@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen md:max-w-3xl lg:max-w-6xl m-auto" id="play">
+  <div class="min-h-screen container m-auto" id="play">
     <h1 class="font-semibold text-3xl px-10 py-10">Locaties</h1>
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-16 mb-10"
