@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   },
   content: {
     documentDriven: true,
+    base: "/beachtennisnederland",
     highlight: {
       theme: "github-dark",
     },
