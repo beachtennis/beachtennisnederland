@@ -4,6 +4,10 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
   modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@unlighthouse/nuxt"],
   ssr: false,
+  target: "static",
+  app: {
+    baseURL: "/beachtennisnederland/"
+  },
   content: {
     documentDriven: true,
     highlight: {
