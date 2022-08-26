@@ -65,7 +65,7 @@ jobs:
         run: |
           tar \
             --dereference --hard-dereference \
-            --directory ./output/public \
+            --directory ./.output/public \
             -cvf ${{ runner.temp }}/artifact.tar \
             --exclude=.git \
             --exclude=.github \
