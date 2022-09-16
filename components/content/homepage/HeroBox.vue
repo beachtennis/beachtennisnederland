@@ -7,7 +7,7 @@
     <div class="w-80">
       <h1 class="text-5xl font-bold">Beachtennis is een sport voor iedereen!</h1>
       <p class="py-6">Tennissen op het strand met je voeten in het zand. Doe je mee?</p>
-    <button class="btn btn-primary" @click="scroll('play')">Speel mee</button>
+    <button class="btn btn-primary" @click="scroll('locations')">Speel mee</button>
       </div>
   </div>
 </div>
