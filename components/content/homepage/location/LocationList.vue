@@ -17,6 +17,7 @@
             description: location.description,
             tag: location.tag,
             badges: location.badges,
+            image: location.image
           }"
           :to="location._path"
         >
