@@ -27,11 +27,7 @@
         Zie volledige ranglijst
       </button></NuxtLink
     >
-    <NuxtLink v-else to="/">
-      <button class="btn btn-secondary">
-        Terug naar homepagina
-      </button>
-    </NuxtLink>
+    <BackHomeButton v-else />
   </div>
 </template>
 
