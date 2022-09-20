@@ -3,6 +3,15 @@ title: "Ranglijst heren"
 description: "Officiele ranglijst heren"
 ---
 
-# Ranking
+::ranking-container
+---
+activeHeren: true
+amount: -1
+---
+::
 
-Dit is de volledige lijst van de heren
+::footer-bar
+::
+
+<!-- Scroll to top -->
+<script>window.scrollTo(0, 2)</script>

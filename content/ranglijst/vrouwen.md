@@ -3,6 +3,15 @@ title: "Ranglijst vrouwen"
 description: "Officiele ranglijst vrouwen"
 ---
 
-# Ranking
+::ranking-container
+---
+activeHeren: false
+amount: -1
+---
+::
 
-Dit is de volledige lijst van de dames
+::footer-bar
+::
+
+<!-- Scroll to top -->
+<script>window.scrollTo(0, 2)</script>

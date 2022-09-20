@@ -1,6 +1,7 @@
 <template>
-  <NuxtPage />
+    <NuxtPage />
 </template>
+
 
 <style>
 body {
