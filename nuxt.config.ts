@@ -7,9 +7,13 @@ export default defineNuxtConfig({
       "@nuxtjs/tailwindcss"
     ],
   ssr: false,
-  target: 'static',
+  target: "static",
+  app: {
+    baseURL: "/beachtennisnederland/"
+  },
   content: {
     documentDriven: true,
+    base: "/beachtennisnederland",
     highlight: {
       theme: "github-dark",
     },
